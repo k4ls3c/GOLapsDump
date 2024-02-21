@@ -21,12 +21,18 @@ GOLapsDump.exe -u user@na.domain.local -p Pa$$w0rd -d na.domain.local
 ```
 Options
 ```
-    -u string: Specify the username for LDAP.
-    -p string: Provide the password for LDAP.
-    -l string: Define the LDAP server (or domain).
-    -d string: Set the domain.
-    -port int: Specify the LDAP server port (default is 389).
-    -o string: Define the output file path.
+  -u string
+        username for LDAP
+  -p string
+        password for LDAP
+  -l string
+        LDAP server (or domain)
+  -d string
+        Domain
+  -port int
+        LDAP server port (default is 389)
+  -o string
+        Output file path
 ```
 Example
 ```
