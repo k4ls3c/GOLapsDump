@@ -44,3 +44,4 @@ The author is not responsible for unauthorized use of this tool. Use responsibly
 
 ## Reference
 - https://github.com/kfosaaen/Get-LAPSPasswords/blob/master/Get-LAPSPasswords.ps1
+- https://github.com/n00py/LAPSDumper
