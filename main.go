@@ -31,13 +31,13 @@ func main() {
 
 	// Customize Usage function
 	flag.Usage = func() {
-		fmt.Fprintf(os.Stderr, "Usage GOLapsDump.exe -u user@na.domain.local -p Pa$$w0rd -d na.domain.local\n\n")
-		fmt.Fprintf(os.Stderr, "  -u string\n\tusername for LDAP\n")
-		fmt.Fprintf(os.Stderr, "  -p string\n\tpassword for LDAP\n")
-		fmt.Fprintf(os.Stderr, "  -l string\n\tLDAP server (or domain)\n")
-		fmt.Fprintf(os.Stderr, "  -d string\n\tDomain\n")
-		fmt.Fprintf(os.Stderr, "  -port int\n\tLDAP server port (default is 389)\n")
-		fmt.Fprintf(os.Stderr, "  -o string\n\tOutput file path\n")
+		fmt.Fprintf(os.Stderr, "\nUsage: GOLapsDump.exe -u user@na.domain.local -p Pa$$w0rd -d na.domain.local\n\n")
+		fmt.Fprintf(os.Stderr, "  -u \tusername for LDAP\n")
+		fmt.Fprintf(os.Stderr, "  -p \tpassword for LDAP\n")
+		fmt.Fprintf(os.Stderr, "  -l \tLDAP server (or domain)\n")
+		fmt.Fprintf(os.Stderr, "  -d \tDomain\n")
+		fmt.Fprintf(os.Stderr, "  -port\tLDAP server port (default is 389)\n")
+		fmt.Fprintf(os.Stderr, "  -o \tOutput file path\n")
 	}
 
 	// Parse command-line flags
