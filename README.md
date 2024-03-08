@@ -23,7 +23,7 @@ Options
 ```
   -u    username for LDAP
   -p    password for LDAP
-  -l    LDAP server (or domain)
+  -l    LDAP server
   -d    Domain
   -port LDAP server port (default is 389)
   -o    Output file path
