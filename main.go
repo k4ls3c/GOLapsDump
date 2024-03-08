@@ -24,7 +24,7 @@ func main() {
         // Define command-line flags
         username := flag.String("u", "", "username for LDAP")
         password := flag.String("p", "", "password for LDAP")
-        ldapServer := flag.String("l", "", "LDAP server (or domain)")
+        ldapServer := flag.String("l", "", "LDAP server")
         domain := flag.String("d", "", "Domain")
         port := flag.Int("port", 389, "LDAP server port (default is 389)")
         outputFile := flag.String("o", "", "Output file path")
