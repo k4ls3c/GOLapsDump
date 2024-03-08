@@ -31,7 +31,7 @@ func main() {
 
         // Customize Usage function
         flag.Usage = func() {
-                fmt.Fprintf(os.Stderr, "\nUsage: GOLapsDump.exe -u user@na.domain.local -p Pa$$w0rd -d na.domain.local\n\n")
+                fmt.Fprintf(os.Stderr, "\nUsage: GOLapsDump.exe -u jorah.mormont -p Pa$$w0rd -d essos.local -l 192.168.56.12\n\n")
                 fmt.Fprintf(os.Stderr, "  -u \tusername for LDAP\n")
                 fmt.Fprintf(os.Stderr, "  -p \tpassword for LDAP\n")
                 fmt.Fprintf(os.Stderr, "  -l \tLDAP server (or domain)\n")
