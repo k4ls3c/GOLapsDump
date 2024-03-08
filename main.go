@@ -53,7 +53,7 @@ func main() {
 
         // Print initialization message
         fmt.Println("---------------------------------------------------------")
-        fmt.Printf("Initializing GoKerberoast at %s on %s\n", time.Now().Format("15:04:05"), time.Now().Format("2006-01-02"))
+        fmt.Printf("Initializing GOLapsDump at %s on %s\n", time.Now().Format("15:04:05"), time.Now().Format("2006-01-02"))
         fmt.Println("by \x1b[33mk4ls3c\x1b[0m at \x1b[31mCyderes\x1b[0m")
         fmt.Println("---------------------------------------------------------")
 
@@ -134,6 +134,6 @@ func main() {
                 searchRequest.Controls[0].(*ldap.ControlPaging).SetCookie(cookie)
         }
         fmt.Println("---------------------------------------------------------")
-        fmt.Printf("Task complete GoKerberoast at %s on %s\n", time.Now().Format("15:04:05"), time.Now().Format("2006-01-02"))
+        fmt.Printf("Task complete GOLapsDump at %s on %s\n", time.Now().Format("15:04:05"), time.Now().Format("2006-01-02"))
         fmt.Println("---------------------------------------------------------")
 }
