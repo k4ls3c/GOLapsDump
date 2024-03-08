@@ -116,7 +116,7 @@ func main() {
 
                 // Print search results to file or standard output
                 for _, entry := range sr.Entries {
-                        outputWriter.WriteString(fmt.Sprintf("\x1b[33m%s:%s\n\x1b[0m", entry.GetAttributeValue("sAMAccountName"), entry.GetAttributeValue("ms-Mcs-AdmPwd")))
+                        outputWriter.WriteString(fmt.Sprintf("%s:%s\n", entry.GetAttributeValue("sAMAccountName"), entry.GetAttributeValue("ms-Mcs-AdmPwd")))
                 }
 
                 // Check for the presence of a paging control in the response
