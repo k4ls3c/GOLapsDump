@@ -55,7 +55,7 @@ func main() {
         fmt.Println("---------------------------------------------------------")
         fmt.Printf("Initializing GOLapsDump at %s on %s\n", time.Now().Format("15:04:05"), time.Now().Format("2006-01-02"))
         fmt.Println("by \x1b[33mk4ls3c\x1b[0m at \x1b[31mCyderes\x1b[0m")
-        fmt.Println("---------------------------------------------------------")
+        fmt.Println("---------------------------------------------------------\x1b[33m")
 
         var server string
         if *ldapServer != "" {
@@ -133,7 +133,7 @@ func main() {
                 // Update the search request with the new cookie for the next page
                 searchRequest.Controls[0].(*ldap.ControlPaging).SetCookie(cookie)
         }
-        fmt.Println("---------------------------------------------------------")
+        fmt.Println("\x1b[0m---------------------------------------------------------")
         fmt.Printf("Task complete GOLapsDump at %s on %s\n", time.Now().Format("15:04:05"), time.Now().Format("2006-01-02"))
         fmt.Println("---------------------------------------------------------")
 }
