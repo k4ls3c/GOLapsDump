@@ -19,6 +19,8 @@ Execute GOLapsDump with the following command:
 ```
 GOLapsDump.exe -u jorah.mormont -p Pa$$w0rd -d essos.local -l 192.168.56.12
 ```
+![GOLapsDump](https://github.com/k4ls3c/GOLapsDump/assets/148506834/f4e40b08-b254-40ce-a5aa-f84ecd897a63)
+
 Options
 ```
   -u    username for LDAP
