@@ -17,26 +17,20 @@ go build
 ## Usage
 Execute GOLapsDump with the following command:
 ```
-GOLapsDump.exe -u user@na.domain.local -p Pa$$w0rd -d na.domain.local
+GOLapsDump.exe -u jorah.mormont -p Pa$$w0rd -d essos.local -l 192.168.56.12
 ```
 Options
 ```
-  -u string
-        username for LDAP
-  -p string
-        password for LDAP
-  -l string
-        LDAP server (or domain)
-  -d string
-        Domain
-  -port int
-        LDAP server port (default is 389)
-  -o string
-        Output file path
+  -u    username for LDAP
+  -p    password for LDAP
+  -l    LDAP server (or domain)
+  -d    Domain
+  -port LDAP server port (default is 389)
+  -o    Output file path
 ```
 Example
 ```
-GOLapsDump.exe -u user@na.domain.local -p Pa$$w0rd -d na.domain.local -o /path/to/output/file.txt
+GOLapsDump.exe -u jorah.mormont -p Pa$$w0rd -d essos.local -l 192.168.56.12 -o /path/to/output/file.txt
 ```
 ## Disclaimer
 
