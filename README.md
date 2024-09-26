@@ -19,12 +19,16 @@ Execute GOLapsDump with the following command:
 ```
 GOLapsDump.exe -u jorah.mormont -p Pa$$w0rd -d essos.local -l 192.168.56.12
 ```
+```
+GOLapsDump.exe -u jorah.mormont -H 92937945B518814341DE3F726500D4FF -d essos.local -l 192.168.56.12
+```
 ![GOLapsDump](https://github.com/k4ls3c/GOLapsDump/assets/148506834/f4e40b08-b254-40ce-a5aa-f84ecd897a63)
 
 Options
 ```
   -u    username for LDAP
   -p    password for LDAP
+  -H    ntHash
   -l    LDAP server
   -d    Domain
   -port LDAP server port (default is 389)
